@@ -1,0 +1,13 @@
+.profile-image img{
+    height: 170px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+@media only screen and (max-width : 740px) {
+    .setting-section{
+        min-width: 90% !important;
+        max-width: 100% !important;  
+    }
+}

@@ -1,0 +1,316 @@
+.profile-section{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 10px;
+    
+}
+.profile-avatar{
+  height: 60px;
+  width: 80px;
+  margin: 9px auto;
+}
+.profile-avatar img{
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  border-radius: 50%;
+  border: 2px inset tomato;
+}
+.edit{
+  cursor: pointer;
+}
+.post-header{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 2px;
+  color: #414147;
+  
+}
+.profile-name-div{
+  text-align: center;
+
+}
+.profile-username{
+  color: #414147;
+  font-family :system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+.profile-card img{
+  height: 75px;
+  width: 70px;
+  border-radius: 50%;
+ 
+}
+.profile-img-div{
+  height: 150px;
+  width: 90%;
+  box-shadow: 2px 2px 3px rgb(22, 15, 15);
+  margin: 10px auto;
+  padding: 6px;
+  background-image: url('https://images.pexels.com/photos/19467354/pexels-photo-19467354/free-photo-of-close-up-of-small-bird.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size: cover;
+} 
+.posts-card{
+    width: 100%;
+    height: 500px;
+    min-height: 500px;
+    margin-bottom: 40px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.user-profile-details{
+  margin: 4px 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+
+}
+ .user-name{
+  line-height: 3px;
+  letter-spacing: 2px;
+  color: #414147;
+  font-family :system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  margin: 5px auto;
+}
+.user-bio{
+  padding: 7px;
+  margin: 6px 0px;
+  color: hsla(0, 93%, 73%, 0.9);
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 300;
+}
+.user-hashtags{
+  text-align: justify;
+  color: darkgreen;
+  word-spacing: 2px;
+  padding: 6px;
+  display: inline-block;
+  
+}
+.posts-section{
+  overflow: auto;
+  margin: 0px 20px;
+  width: 75%;
+}
+.post-img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    background-color: rgba(248, 230, 230, 0.4);
+}
+.post-icons{
+    display: flex;
+   
+}
+.post-icons button{
+  border: none;
+  background-color: #ffffff;
+}
+.hashtags{
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 15px;
+
+
+}
+.profile-post-image img{
+   height: 75px;
+   width: 70px;
+   border-radius: 50%;
+   
+}
+.text-muted{
+  display: inline-block;
+  margin-left: 15px;
+  padding: 5px;
+}
+.profile-post-image{
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+}
+.icon-item{
+    color: tomato;
+    margin-left: 70px;
+    margin-top: 0px;
+   
+}
+.counts{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 70px;
+    color: #e47312;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-body{
+    height: 70px;
+}
+.card-title{
+    font-family: Dosis, sans-serif;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+}
+.card-text{
+    font-family: Dosis, sans-serif;
+    color: #32323d;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 1px;
+}
+.location{
+  margin-right: 20px;
+  margin-left: 30px;
+  font-family: Dosis, sans-serif;
+  color: #0c0c0c;
+  font-size: 17px;
+  display: inline-block;
+ 
+}
+.location svg{
+  display: inline-block;
+  color: tomato;
+  margin: 4px;
+}
+
+.col-3 { 
+    width: 33%; 
+    position: -webkit-sticky; 
+    position: sticky; 
+    top: 90px; 
+  } 
+    
+  .col-3 h4 { 
+    color: rgb(100, 100, 100); 
+  } 
+    
+  .col-3 .card { 
+    margin-bottom: 20px; 
+    position: relative; 
+    width: 100%; 
+    /* min-height: 400px; */
+    display: inline-block; 
+  } 
+    
+  .col-3 .card .top { 
+    padding: 10px 0px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  } 
+    
+  .col-3 .card .top a { 
+    color: #1d92ff; 
+  } 
+    
+  .col-3 .card .bottom { 
+    padding: 10px 20px; 
+  } 
+    
+  .col-3 .card .top .userDetails { 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+  } 
+    
+  .col-3 .card .top .userDetails h3 { 
+    font-size: 16px; 
+    color: #4d4d4f; 
+    font-weight: 500; 
+    line-height: 1em; 
+  } 
+    
+  .col-3 .card .top .userDetails h3 span { 
+    font-size: 0.75em; 
+  } 
+    
+  .col-3 .card .top .userDetails h3 span { 
+    font-size: 0.75em; 
+  } 
+    
+  .col-9 .card { 
+    margin-bottom: 20px; 
+    position: relative; 
+    width: 100%; 
+    /* min-height: 400px; */
+    display: inline-block; 
+    border: 1px solid rgba(7, 7, 7, 0.24); 
+  } 
+    
+  .col-9 .card .top { 
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  } 
+    
+  .col-9 .card .bottom { 
+    padding: 10px 20px; 
+  } 
+    
+  .col-9 .card .top .userDetails { 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+  } 
+    
+  .profilepic { 
+    display: inline-block; 
+    cursor: pointer; 
+  } 
+    
+  .profilepic .profile_img { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    width: 30px; 
+    height: 30px; 
+    background: linear-gradient(to right, red, orange); 
+    padding: 2px; 
+    margin-right: 8px; 
+    cursor: pointer; 
+  } 
+    
+  .profilepic .profile_img .image { 
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: 2px solid white; 
+  } 
+    
+  .profilepic .profile_img img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  } 
+    
+  .cover { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  } 
+.post-form input{
+    margin: 12px;
+}
+

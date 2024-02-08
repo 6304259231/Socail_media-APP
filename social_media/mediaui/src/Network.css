@@ -1,0 +1,27 @@
+.user-avatar-section {
+    width: 40px;
+    height: 45px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.user-avatar-section img {
+    width: 100%;
+    object-fit: fill;
+    height: auto;
+    border-radius: 50%;
+    border: 1px inset tomato;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width : 840px) {
+    .network-section{
+     width: 98% !important;
+    }
+    .current-user{
+     margin: 8px 10px;
+     margin-left: 12px !important;
+     width: 85% !important;
+     margin-right: 5px !important;
+    }
+ }
+

@@ -1,0 +1,32 @@
+
+.register-btn{
+    margin: 15px auto;
+    width: 80%;
+}
+.register-section{
+    box-shadow: 4px 4px 7px black;
+    padding: 13px;
+}
+
+@media only screen and (max-width : 740px) {
+    .register-section{
+        text-align: left;
+        min-width: 96%;
+    }
+    form .form-floating{
+        min-width: 92% !important;
+        max-width: 100%;
+    }
+    .avatar-item {
+        display: inline-block;
+        margin: 6px 5px;
+        padding: 8px;
+        width: 100px;
+        height: 100px;
+    }
+    .avatar-item-select{
+        width: 110px;
+        height: 110px;
+        margin: 20px 3px;
+    }
+}
